@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD01B3AC1CFD3E3B001EDB25 /* InboxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD01B3AB1CFD3E3B001EDB25 /* InboxViewController.swift */; };
 		FD4C15D81CFD329500D474F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C15D71CFD329500D474F8 /* AppDelegate.swift */; };
-		FD4C15DA1CFD329500D474F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4C15D91CFD329500D474F8 /* ViewController.swift */; };
+		FD4C15DA1CFD329500D474F8 /* I in Sources */ = {isa = PBXBuildFile; fileRef = FD4C15D91CFD329500D474F8 /* I */; };
 		FD4C15DD1CFD329500D474F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4C15DB1CFD329500D474F8 /* Main.storyboard */; };
 		FD4C15DF1CFD329500D474F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD4C15DE1CFD329500D474F8 /* Assets.xcassets */; };
 		FD4C15E21CFD329500D474F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD4C15E01CFD329500D474F8 /* LaunchScreen.storyboard */; };
@@ -34,9 +35,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FD01B3AB1CFD3E3B001EDB25 /* InboxViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InboxViewController.swift; sourceTree = "<group>"; };
 		FD4C15D41CFD329500D474F8 /* Mailbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mailbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD4C15D71CFD329500D474F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD4C15D91CFD329500D474F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD4C15D91CFD329500D474F8 /* I */ = {isa = PBXFileReference; lastKnownFileType = text; path = I; sourceTree = "<group>"; };
 		FD4C15DC1CFD329500D474F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD4C15DE1CFD329500D474F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD4C15E11CFD329500D474F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,8 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				FD4C15D71CFD329500D474F8 /* AppDelegate.swift */,
-				FD4C15D91CFD329500D474F8 /* ViewController.swift */,
+				FD4C15D91CFD329500D474F8 /* I */,
 				FD4C15DB1CFD329500D474F8 /* Main.storyboard */,
+				FD01B3AB1CFD3E3B001EDB25 /* InboxViewController.swift */,
 				FD4C15DE1CFD329500D474F8 /* Assets.xcassets */,
 				FD4C15E01CFD329500D474F8 /* LaunchScreen.storyboard */,
 				FD4C15E31CFD329500D474F8 /* Info.plist */,
@@ -256,7 +259,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD4C15DA1CFD329500D474F8 /* ViewController.swift in Sources */,
+				FD4C15DA1CFD329500D474F8 /* I in Sources */,
+				FD01B3AC1CFD3E3B001EDB25 /* InboxViewController.swift in Sources */,
 				FD4C15D81CFD329500D474F8 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -482,6 +486,7 @@
 				FD4C15FE1CFD329500D474F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4C15FF1CFD329500D474F8 /* Build configuration list for PBXNativeTarget "MailboxTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +495,7 @@
 				FD4C16011CFD329500D474F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD4C16021CFD329500D474F8 /* Build configuration list for PBXNativeTarget "MailboxUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +504,7 @@
 				FD4C16041CFD329500D474F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
